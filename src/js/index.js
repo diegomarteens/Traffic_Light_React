@@ -9,7 +9,8 @@ import "bootstrap";
 import "../styles/index.scss";
 
 //import your own components
-import Home from "./component/home.jsx";
+import { Home } from "./component/home.jsx";
+import TrafficLights from "./component/trafficlights";
 
 //render your react application
 ReactDOM.render(<Home />, document.querySelector("#app"));

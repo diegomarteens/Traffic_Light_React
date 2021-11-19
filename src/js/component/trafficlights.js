@@ -2,7 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 
 export function TrafficLights() {
-	const [color, setColor] = React.useState;
+	const [color, setColor] = React.useState("green");
 
 	return (
 		<div>
@@ -36,6 +36,8 @@ export function TrafficLights() {
 						"green" + (color === "green" ? " selected" : "")
 					}></div>
 			</div>
+			<div className="background"></div>
 		</div>
 	);
 }
+<TrafficLights />;
