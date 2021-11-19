@@ -36,7 +36,7 @@ export function TrafficLights() {
 						"green" + (color === "green" ? " selected" : "")
 					}></div>
 			</div>
-			<div className="background"></div>
+			{/* <div className="background"></div> */}
 		</div>
 	);
 }
